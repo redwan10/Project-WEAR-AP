@@ -1,0 +1,93 @@
+//COLORS
+$white:    #fff !default;
+$primary: #4b22f4 !default;
+$secondary: #4e5a61 !default;
+$info: #019fff !default;
+$light: #f0f5f8 !default;
+$dark: #181b32 !default;
+$gray-200: #e9ecef !default;
+$gray-900: #212529 !default;
+$blue:    #007bff !default;
+//FONTS
+$font-family-base: 'Nunito Sans', sans-serif !default;
+$font-weight-light: 200 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$h1-font-size: 3.2rem !default;
+//BTN
+$btn-padding-y: .6rem !default;
+$btn-padding-x: 1.3rem !default;
+$btn-padding-y-sm: .45rem !default;
+$btn-padding-x-sm: 1rem !default;
+$btn-padding-y-lg: $btn-padding-y * 1.4;
+$btn-padding-x-lg: $btn-padding-x * 1.4;
+$btn-border-width: none !default;
+$btn-border-radius: 100px !default;
+$btn-border-radius-lg: 100px !default;
+$btn-border-radius-sm: 100px !default;
+$btn-font-size-lg: 1.1rem!default;
+//INPUTS
+$input-bg: $light !default;
+
+//IMPORTS
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700&display=swap');
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+//GENERAL
+html, body {
+  height: 100vh;
+}
+.container {
+  max-width: 1300px !important;
+}
+
+a {
+  outline: none !important;
+  &:hover {
+    text-decoration: none;
+    opacity: .8;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+*:focus {outline:none}
+
+
+//NAV
+nav {
+  &.navbar {
+    position: absolute !important;
+    z-index: 99;
+    background-color: $white;
+  }
+  .navbar-brand {
+    img {
+      height: 56px;
+    }
+    padding-right: 40px;
+  }
+  .nav-item {
+    margin-right: 25px;
+    .nav-link {
+      padding-left: 10px;
+      padding-right: 10px;
+      text-transform: uppercase;
+      font-size: .9rem;
+      letter-spacing: 1.5px;
+      color: $gray-500 !important;
+      &:hover {
+        color: $dark !important;
+      }
+    }
+    &.active {
+      .nav-link {
+        color: $dark !important;
+      }
+    }
+  }
+}
