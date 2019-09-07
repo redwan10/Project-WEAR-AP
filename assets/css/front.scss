@@ -1,5 +1,6 @@
 //COLORS
 $logo-bg: #9c847a;
+$gray-dark: #83736d;
 $light-pink: #cdaa9b;
 $dark-green: #03898b;
 $p-color: #a1a1a1;
@@ -295,7 +296,7 @@ $grid-breakpoints: (
 .title-area {
   .text-box {
     background-color: $white;
-    padding: 100px 0;
+    padding: 130px 0;
     h3 {
       color: $p-color;
       margin-bottom: 0;
@@ -310,4 +311,33 @@ $grid-breakpoints: (
       font-weight: 600; 
     }
   }
+}
+
+
+// Istagrame img Area
+.insta-img-area {
+ .gray-box {
+  background-color: $gray-dark;
+ } 
+ .pink-box {
+  background-color: $light-pink;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  @media (max-width:map-get($grid-breakpoints, "sm")) {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  p{
+    color: $white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 22px;
+    font-weight: 600;
+  }
+ }
 }

@@ -10858,7 +10858,7 @@ ul {
 
 .title-area .text-box {
   background-color: #fff;
-  padding: 100px 0;
+  padding: 130px 0;
 }
 
 .title-area .text-box h3 {
@@ -10873,6 +10873,37 @@ ul {
   color: #a1a1a1;
   margin-bottom: 0;
   line-height: 28px;
+  font-weight: 600;
+}
+
+.insta-img-area .gray-box {
+  background-color: #83736d;
+}
+
+.insta-img-area .pink-box {
+  background-color: #cdaa9b;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  .insta-img-area .pink-box {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+  }
+}
+
+.insta-img-area .pink-box img {
+  margin-bottom: 20px;
+}
+
+.insta-img-area .pink-box p {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 22px;
   font-weight: 600;
 }
 /*# sourceMappingURL=front.css.map */
