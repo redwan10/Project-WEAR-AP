@@ -10624,24 +10624,6 @@ ul {
   font-family: "Nunito Sans", sans-serif;
 }
 
-@media (min-width: 768px) {
-  .header-area .site-logo h1 {
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 576px) {
-  .header-area .site-logo h1 {
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .header-area .site-logo h1 {
-    font-size: 1.8rem;
-  }
-}
-
 .header-area .side-navbar {
   background-color: #fff;
   padding-top: 110px;

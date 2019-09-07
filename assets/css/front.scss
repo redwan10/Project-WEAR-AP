@@ -101,15 +101,6 @@ $grid-breakpoints: (
       text-transform: uppercase;
       margin-bottom: 0;
       font-family: $font-family-base;
-      @media (min-width: map-get($grid-breakpoints, "md")) {
-        font-size: 1.8rem;
-      }
-      @media (min-width: map-get($grid-breakpoints, "sm")) { 
-        font-size: 1.6rem;
-      }
-      @media (max-width: map-get($grid-breakpoints, "sm")) { 
-        font-size: 1.8rem;
-      }
     }
   }
   .side-navbar {
