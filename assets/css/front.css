@@ -10855,4 +10855,24 @@ ul {
     line-height: 22px;
   }
 }
+
+.title-area .text-box {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.title-area .text-box h3 {
+  color: #a1a1a1;
+  margin-bottom: 0;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title-area .text-box h4 {
+  color: #a1a1a1;
+  margin-bottom: 0;
+  line-height: 28px;
+  font-weight: 600;
+}
 /*# sourceMappingURL=front.css.map */

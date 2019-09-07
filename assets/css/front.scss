@@ -289,3 +289,25 @@ $grid-breakpoints: (
     }
   }
 }
+
+
+// Title Area
+.title-area {
+  .text-box {
+    background-color: $white;
+    padding: 100px 0;
+    h3 {
+      color: $p-color;
+      margin-bottom: 0;
+      line-height: 32px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    h4 {
+      color: $p-color;
+      margin-bottom: 0;
+      line-height: 28px;
+      font-weight: 600; 
+    }
+  }
+}
