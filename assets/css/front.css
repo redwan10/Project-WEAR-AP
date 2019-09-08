@@ -10729,6 +10729,88 @@ ul {
   margin-bottom: 0;
 }
 
+.header-area.store {
+  position: relative;
+  z-index: 6;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-area.store {
+    background-color: #cdaa9b;
+    padding-bottom: 120px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-area.store .side-navbar {
+    margin-bottom: -90px;
+    z-index: 8;
+  }
+}
+
+.header-area.store .title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  background-color: #cdaa9b;
+  min-height: 220px;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-area.store .title {
+    min-height: 150px;
+    padding-top: 35px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-area.store .title {
+    min-height: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-area.store .title {
+    position: relative;
+    z-index: 8;
+  }
+}
+
+@media (min-width: 0) and (max-width: 576px) {
+  .header-area.store .title {
+    position: static;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-area.store .title .text {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    z-index: 8;
+  }
+}
+
+.header-area.store .title .text h3 {
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.header-area.store .title .text p {
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
 .gallery-section {
   position: relative;
 }

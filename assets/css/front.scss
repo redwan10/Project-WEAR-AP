@@ -187,6 +187,68 @@ $grid-breakpoints: (
       }
     }
   }
+  &.store {
+    position: relative;
+    z-index: 6;
+    @media (min-width: map-get($grid-breakpoints, "sm")) and (max-width:map-get($grid-breakpoints, "md")) { 
+      background-color: $light-pink;
+      padding-bottom: 120px !important;
+    }
+    .side-navbar {
+      @media (min-width: map-get($grid-breakpoints, "sm")) and (max-width:map-get($grid-breakpoints, "md")) { 
+        margin-bottom: -90px;
+        z-index: 8;
+      }
+    }
+    .title {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 9;
+      background-color: $light-pink;
+      // min-width: 460px;
+      min-height: 220px;
+      padding-top: 60px;
+      padding-left: 40px;
+      @media (min-width: map-get($grid-breakpoints, "lg")) and (max-width:map-get($grid-breakpoints, "xl")) { 
+        min-height: 150px;
+        padding-top: 35px;
+        padding-left: 30px;
+      }
+      @media (min-width: map-get($grid-breakpoints, "md")) and (max-width:map-get($grid-breakpoints, "lg")) {
+        min-height: 120px;
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      @media (min-width: map-get($grid-breakpoints, "sm")) and (max-width:map-get($grid-breakpoints, "md")) { 
+        position: relative;
+        z-index: 8;
+      }
+      @media (min-width: map-get($grid-breakpoints, "xs")) and (max-width:map-get($grid-breakpoints, "sm")) { 
+        position: static;
+        padding-left: 30px;
+      }
+      .text{
+        @media (min-width: map-get($grid-breakpoints, "sm")) and (max-width:map-get($grid-breakpoints, "md")) { 
+          position: absolute;
+          bottom: 40px;
+          right: 60px;
+          z-index: 8;
+        }
+        h3 {
+          color: $white;
+          margin-bottom: 0;
+          text-transform: uppercase;
+          line-height: 32px;
+        }
+        p {
+          color: $white;
+          margin-bottom: 0;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
 }
 
 
