@@ -403,18 +403,12 @@ $grid-breakpoints: (
  }
 }
 
-
+// Store Product 
 .store-product {
   margin-top: -90px;
   z-index: 9;
   position: relative;
-  @media (min-width: map-get($grid-breakpoints, "lg")) and (max-width:map-get($grid-breakpoints, "xl")) {
-    margin-top: 40px;
-  }
-  @media (min-width: map-get($grid-breakpoints, "md")) and (max-width:map-get($grid-breakpoints, "lg")) {
-    margin-top: 40px;
-  }
-  @media (max-width:map-get($grid-breakpoints, "md")) {
+  @media (max-width:map-get($grid-breakpoints, "xl")) {
     margin-top: 40px;
   }
   .box {
