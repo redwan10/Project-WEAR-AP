@@ -10988,7 +10988,12 @@ ul {
   font-weight: 600;
 }
 
+.insta-img-area.store .img-box .gray {
+  background-color: #e9ecef;
+}
+
 .store-product {
+  padding-bottom: 100px;
   margin-top: -90px;
   z-index: 9;
   position: relative;
@@ -11071,5 +11076,37 @@ ul {
   text-transform: uppercase;
   font-weight: 500;
   padding: 10px 15px;
+}
+
+.sari-product {
+  padding-bottom: 130px;
+}
+
+.sari-product .img-box {
+  position: relative;
+  text-align: center;
+}
+
+.sari-product .img-box .text {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.sari-product .img-box .text p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.sari-product .img-box .text span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
 }
 /*# sourceMappingURL=front.css.map */
