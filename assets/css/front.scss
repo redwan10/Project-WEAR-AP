@@ -95,7 +95,7 @@ $grid-breakpoints: (
     padding: 20px;
     z-index: 9;
     @media (max-width: map-get($grid-breakpoints, "sm")) {
-      width: 100%;
+      width: calc(100% - 30px);
       text-align: center;
     }
     h1{

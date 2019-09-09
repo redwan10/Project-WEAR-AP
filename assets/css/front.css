@@ -10610,7 +10610,7 @@ ul {
 
 @media (max-width: 576px) {
   .header-area .site-logo {
-    width: 100%;
+    width: calc(100% - 30px);
     text-align: center;
   }
 }
