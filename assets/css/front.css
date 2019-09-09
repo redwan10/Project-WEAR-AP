@@ -10600,7 +10600,7 @@ ul {
 
 .header-area .site-logo {
   position: absolute;
-  left: 0;
+  left: 15px;
   top: 0;
   background-color: #9c847a;
   display: inline-block;
