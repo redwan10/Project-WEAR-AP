@@ -94,7 +94,7 @@ $grid-breakpoints: (
     display: inline-block;
     padding: 20px 20px;
     z-index: 9;
-    @media (min-width: map-get($grid-breakpoints, "xl")){
+    @media (min-width: 1500px){
       padding: 20px 70px;
     }
     @media (max-width: map-get($grid-breakpoints, "sm")) {

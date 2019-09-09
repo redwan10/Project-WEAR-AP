@@ -10608,7 +10608,7 @@ ul {
   z-index: 9;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .header-area .site-logo {
     padding: 20px 70px;
   }
