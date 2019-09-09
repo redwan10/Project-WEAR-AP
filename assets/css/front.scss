@@ -88,14 +88,14 @@ $grid-breakpoints: (
   position: relative;
   .site-logo {
     position: absolute;
-    left: 15px;
+    left: 0;
     top: 0;
     background-color: $logo-bg;
     display: inline-block;
     padding: 20px;
     z-index: 9;
     @media (max-width: map-get($grid-breakpoints, "sm")) {
-      width: calc(100% - 30px);
+      width: 100%;
       text-align: center;
     }
     h1{

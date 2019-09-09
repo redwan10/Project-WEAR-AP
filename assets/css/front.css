@@ -10600,7 +10600,7 @@ ul {
 
 .header-area .site-logo {
   position: absolute;
-  left: 15px;
+  left: 0;
   top: 0;
   background-color: #9c847a;
   display: inline-block;
@@ -10610,7 +10610,7 @@ ul {
 
 @media (max-width: 576px) {
   .header-area .site-logo {
-    width: calc(100% - 30px);
+    width: 100%;
     text-align: center;
   }
 }
