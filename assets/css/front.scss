@@ -423,9 +423,10 @@ $grid-breakpoints: (
     position: relative;
     text-align: center;
     margin-bottom: 30px;
-    &:before {
+    a.divlink {
+      font-size: 0px;
       position: absolute;
-      content: "";
+      display: block;
       top: 0;
       left: 15px;
       right: 15px;
@@ -439,7 +440,7 @@ $grid-breakpoints: (
       -ms-transition: 0.5s ease-in-out;
       -o-transition: 0.5s ease-in-out;
     }
-    &:hover:before{
+    &:hover a.divlink {
       opacity: 0.7;
       visibility: visible;
     }

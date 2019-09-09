@@ -11011,9 +11011,10 @@ ul {
   margin-bottom: 30px;
 }
 
-.store-product .box:before {
+.store-product .box a.divlink {
+  font-size: 0px;
   position: absolute;
-  content: "";
+  display: block;
   top: 0;
   left: 15px;
   right: 15px;
@@ -11028,7 +11029,7 @@ ul {
   -o-transition: 0.5s ease-in-out;
 }
 
-.store-product .box:hover:before {
+.store-product .box:hover a.divlink {
   opacity: 0.7;
   visibility: visible;
 }
