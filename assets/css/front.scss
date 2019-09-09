@@ -92,8 +92,11 @@ $grid-breakpoints: (
     top: 0;
     background-color: $logo-bg;
     display: inline-block;
-    padding: 20px;
+    padding: 20px 20px;
     z-index: 9;
+    @media (min-width: map-get($grid-breakpoints, "xl")){
+      padding: 20px 70px;
+    }
     @media (max-width: map-get($grid-breakpoints, "sm")) {
       width: 100%;
       text-align: center;
@@ -491,6 +494,9 @@ $grid-breakpoints: (
 // sari-product
 .sari-product {
   padding-bottom: 130px;
+  a:hover {
+    opacity: 1;
+  }
   .img-box {
     position: relative;
     text-align: center;

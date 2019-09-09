@@ -10604,8 +10604,14 @@ ul {
   top: 0;
   background-color: #9c847a;
   display: inline-block;
-  padding: 20px;
+  padding: 20px 20px;
   z-index: 9;
+}
+
+@media (min-width: 1200px) {
+  .header-area .site-logo {
+    padding: 20px 70px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -11081,6 +11087,10 @@ ul {
 
 .sari-product {
   padding-bottom: 130px;
+}
+
+.sari-product a:hover {
+  opacity: 1;
 }
 
 .sari-product .img-box {
